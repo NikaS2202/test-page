@@ -47,12 +47,24 @@ a {
     padding: 18px 0px 22px;
 }
 
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo__img {
     height: 60px;
     width: 60px;
     border: 2px solid #000000;
     border-radius: 50%;
     overflow: hidden;
+    margin-right: 15px;
 }
 
 .logo__pic {
@@ -60,3 +72,21 @@ a {
     width: 80%;
     object-fit: contain;
 }
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 54px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
